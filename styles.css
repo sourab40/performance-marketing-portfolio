@@ -42,3 +42,263 @@
 .theme-toggle-icon {
   line-height: 1;
 }
+/* ==========================================
+   COMPLETE LIGHT THEME FIX
+   VERSION 2
+   ========================================== */
+
+/* GLOBAL & HEADER */
+
+:root[data-theme="light"] body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .site-header {
+  background: rgba(250, 247, 245, 0.94);
+  border-bottom: 1px solid var(--line);
+}
+
+:root[data-theme="light"] .nav {
+  color: #514b49;
+}
+
+:root[data-theme="light"] .nav-cta {
+  border-color: #d8ceca;
+  color: var(--text) !important;
+}
+
+:root[data-theme="light"] .menu-toggle span {
+  background: var(--text);
+}
+
+/* HERO SECTION */
+
+:root[data-theme="light"] .eyebrow {
+  color: #625b57;
+}
+
+:root[data-theme="light"] .hero-lede {
+  color: #68615d;
+}
+
+:root[data-theme="light"] .hero-meta {
+  color: #77716f;
+}
+
+:root[data-theme="light"] .outline-word {
+  -webkit-text-stroke: 1px #77716f;
+}
+
+/* HERO ARTWORK — KEEP DARK DESIGN */
+
+:root[data-theme="light"] .art-core strong {
+  color: #f4f1ed;
+}
+
+:root[data-theme="light"] .art-core strong span {
+  color: var(--red);
+}
+
+:root[data-theme="light"] .floating-card {
+  background: #141312;
+  color: #f4f1ed;
+}
+
+:root[data-theme="light"] .card-top strong {
+  color: #f4f1ed;
+}
+
+:root[data-theme="light"] .card-top strong em {
+  color: var(--red);
+}
+
+:root[data-theme="light"] .core-top,
+:root[data-theme="light"] .core-bottom {
+  color: #b8ada5;
+}
+
+/* TICKER */
+
+:root[data-theme="light"] .ticker {
+  background: #141312;
+  border-color: #292725;
+}
+
+:root[data-theme="light"] .ticker span {
+  color: #e8e2dc;
+}
+
+/* ABOUT SECTION */
+
+:root[data-theme="light"] .large-copy {
+  color: #37312e;
+}
+
+:root[data-theme="light"] .about-content p:not(.large-copy) {
+  color: #706966;
+}
+
+/* WORK / CASE STUDIES
+   Keep dark editorial background */
+
+:root[data-theme="light"] .work-section {
+  background: #141312;
+  border-color: #292725;
+  color: #f4f1ed;
+}
+
+:root[data-theme="light"] .work-section .section-title {
+  color: #f4f1ed;
+}
+
+:root[data-theme="light"] .work-heading > p {
+  color: #b4aaa3;
+}
+
+:root[data-theme="light"] .case-card {
+  background: #1b1917;
+  border-color: #39332f;
+}
+
+:root[data-theme="light"] .case-info h3 {
+  color: #f4f1ed;
+}
+
+:root[data-theme="light"] .case-summary {
+  color: #c0b7b0;
+}
+
+:root[data-theme="light"] .case-details span {
+  color: #ded6cf;
+}
+
+:root[data-theme="light"] .case-details {
+  border-color: #39332f;
+}
+
+:root[data-theme="light"] .case-details div {
+  border-color: #39332f;
+}
+
+:root[data-theme="light"] .case-note {
+  color: #aaa19a;
+}
+
+/* EXPERTISE / SKILLS */
+
+:root[data-theme="light"] .services-heading > p {
+  color: #706966;
+}
+
+:root[data-theme="light"] .skill-card h3 {
+  color: #211d1b;
+}
+
+:root[data-theme="light"] .skill-card p {
+  color: #706966;
+}
+
+:root[data-theme="light"] .skill-card:hover {
+  background: #fff0ee;
+}
+
+/* CREATIVE SECTION
+   Keep dark editorial background */
+
+:root[data-theme="light"] .creative-section {
+  background: #141312;
+  border-color: #292725;
+  color: #f4f1ed;
+}
+
+:root[data-theme="light"] .creative-section .section-title {
+  color: #f4f1ed;
+}
+
+:root[data-theme="light"] .creative-copy > p {
+  color: #bdb3ac;
+}
+
+:root[data-theme="light"] .creative-disclaimer {
+  color: #aaa19a;
+}
+
+/* CREDENTIALS */
+
+:root[data-theme="light"] .credentials-content > p {
+  color: #706966;
+}
+
+:root[data-theme="light"] .credential-row b {
+  color: #211d1b;
+}
+
+:root[data-theme="light"] .credential-row span {
+  color: #706966;
+}
+
+/* CONTACT SECTION
+   Keep dark editorial background */
+
+:root[data-theme="light"] .contact-section {
+  background: #141312;
+  border-color: #292725;
+  color: #f4f1ed;
+}
+
+:root[data-theme="light"] .contact-section h2 {
+  color: #f4f1ed;
+}
+
+:root[data-theme="light"] .contact-lede {
+  color: #bdb3ac;
+}
+
+:root[data-theme="light"] .contact-footer {
+  border-color: #39332f;
+}
+
+:root[data-theme="light"] .social-links {
+  color: #d0c7c0;
+}
+
+/* SECTION LABELS & BORDERS */
+
+:root[data-theme="light"] .section-kicker {
+  color: #706966;
+  border-color: var(--line);
+}
+
+:root[data-theme="light"] .stat-strip {
+  border-color: var(--line);
+}
+
+:root[data-theme="light"] .stat-strip div {
+  border-color: var(--line);
+}
+
+/* THEME BUTTON */
+
+:root[data-theme="light"] .theme-toggle {
+  background: #ffffff;
+  color: #171717;
+  border-color: #ded5d1;
+}
+
+/* MOBILE NAVIGATION */
+
+@media (max-width: 600px) {
+  :root[data-theme="light"] .nav {
+    background: #faf7f5;
+    border-color: var(--line);
+  }
+
+  :root[data-theme="light"] .nav a {
+    color: #292321;
+  }
+
+  :root[data-theme="light"] .nav .nav-cta {
+    color: #171717 !important;
+  }
+}
