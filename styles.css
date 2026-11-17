@@ -14,3 +14,31 @@
   --red: #E94B43;
   --red2: #FF756B;
 }
+/* THEME TOGGLE BUTTON */
+
+.theme-toggle {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--panel);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 21px;
+  transition: background 0.3s ease,
+              color 0.3s ease,
+              border-color 0.3s ease,
+              transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+  transform: rotate(15deg);
+  background: var(--panel2);
+}
+
+.theme-toggle-icon {
+  line-height: 1;
+}
